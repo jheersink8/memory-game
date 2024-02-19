@@ -1,0 +1,21 @@
+*{
+    background-color: rgb(96, 121, 121);
+}
+
+.card{
+    margin: 50px;
+    height:200px;
+    width: 200px;
+    background-color: rgb(103, 103, 182);
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: larger;
+    border: 3px solid black; 
+}
+
+
+.show{
+    background-image: url(../images/paper.png);
+    background-size: cover;
+}
