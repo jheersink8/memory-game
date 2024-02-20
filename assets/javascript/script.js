@@ -1,6 +1,5 @@
-let cardTest = document.getElementById("card-1");
+//Create group of buttons//
 let buttonsGroup = document.getElementById("buttonsGroup");
-
 let create = function (userLength) {
     for (var i = 0; i < userLength; i++) {
 
@@ -12,8 +11,13 @@ let create = function (userLength) {
     }
 };
 
-
-create();
+const numberForm = document.getElementById("numberForm");
+let userCardCount = document.querySelector("#userCardCount")
+numberForm.addEventListener("submit", function(event){
+    event.preventDefault();
+    let userCardCountText = parseInt(userCardCount.value);
+    create(userCardCountText);
+});
 
 
 

@@ -13,14 +13,16 @@
 
 <body>
     <main>
-        <div>
-            <p>Enter how many cards you want to see in your game?</p>
-            <input id="userCardCount" placeholder="How many cards?">
+        <form id="numberForm">
+            <label for="userCardCount">Enter how many cards you want to see in your game?</label>
+            <input type="text" id="userCardCount" placeholder="How many cards?">
             <button id="submit">Submit</button>
-        </div>
+        </form>
         <div id="buttonsGroup"></div>
 
     </main>
+
+    
     <!-- DayJS web API 1.11 -->
     <script src="https://cdn.jsdelivr.net/npm/dayjs@1.11/dayjs.min.js"
         integrity="sha256-nP25Pzivzy0Har7NZtMr/TODzfGWdlTrwmomYF2vQXM=" crossorigin="anonymous"></script>
